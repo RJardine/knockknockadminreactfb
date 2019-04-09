@@ -114,6 +114,25 @@ class BookingsDetails extends Component {
                     value={booking.email}
                   />
                 </div>
+                {/* address */}
+                <div className="form-group">
+                  <label htmlFor="phone">Address:</label>
+                  <textarea
+                    rows="3"
+                    type="text"
+                    className="form-control"
+                    value={
+                      booking.address +
+                      " " +
+                      booking.street +
+                      "\n" +
+                      booking.city +
+                      " \n" +
+                      booking.postCode
+                    }
+                    readOnly
+                  />
+                </div>
               </form>
             </div>
           </div>
