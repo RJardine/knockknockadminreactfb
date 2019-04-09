@@ -45,7 +45,7 @@ class Navbar extends Component {
                 width="30"
                 height="30"
               />{" "}
-              Knock Knock
+              Knock Knock Services
             </Link>
             <button
               type="button"
