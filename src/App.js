@@ -15,6 +15,7 @@ import Bookings from "./components/bookings/Bookings";
 import BookingsDetails from "./components/bookings/BookingsDetails";
 import Login from "./components/auth/Login";
 import NotFound from "./components/pages/NotFound";
+import Contactus from "./components/contactus/Contactus";
 
 // redux
 import { Provider } from "react-redux";
@@ -25,6 +26,7 @@ import {
   UserIsAuthenticated,
   UserIsNotAuthenticated
 } from "./redux/helper/auth";
+import ContactusDetails from "./components/contactus/ContactusDetails";
 
 class App extends Component {
   render() {
@@ -92,6 +94,17 @@ class App extends Component {
                 exact
                 path="/login"
                 component={UserIsNotAuthenticated(Login)}
+              />
+              {/* Contact Us */}
+              <Route
+                exact
+                path="/contactus"
+                component={UserIsAuthenticated(Contactus)}
+              />
+              <Route
+                exact
+                path="/contact/:id"
+                component={UserIsAuthenticated(ContactusDetails)}
               />
               <Route component={NotFound} />
             </Switch>

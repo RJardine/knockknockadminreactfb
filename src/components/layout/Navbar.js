@@ -70,6 +70,11 @@ class Navbar extends Component {
                     </Link>
                   </li>
                   <li className="nav-item">
+                    <Link to="/contactus" className="nav-link">
+                      Contact Us inquiries
+                    </Link>
+                  </li>
+                  <li className="nav-item">
                     <a
                       href="#!"
                       className="nav-link"
