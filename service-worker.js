@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/knockknockadminreactfb/precache-manifest.70471299bb36e76a31cf6fd1fc8cf5c4.js"
+  "/knockknockadminreactfb/precache-manifest.b48dbfa0891b569f109c7e479dc35dfb.js"
 );
 
 workbox.clientsClaim();

@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/knockknockadminreactfb/static/js/runtime~main.e3e75c33.js"
   },
   {
-    "revision": "b79bd75d77303f696077",
-    "url": "/knockknockadminreactfb/static/js/main.435e4871.chunk.js"
+    "revision": "02abecfeafb7250512c6",
+    "url": "/knockknockadminreactfb/static/js/main.d8693648.chunk.js"
   },
   {
     "revision": "8667b85d54a39cd6a98a",
     "url": "/knockknockadminreactfb/static/js/2.f39386bf.chunk.js"
   },
   {
-    "revision": "b79bd75d77303f696077",
-    "url": "/knockknockadminreactfb/static/css/main.1bccc897.chunk.css"
+    "revision": "02abecfeafb7250512c6",
+    "url": "/knockknockadminreactfb/static/css/main.0b26f396.chunk.css"
   },
   {
-    "revision": "49e81eca34df43ca154814a5b3e83949",
+    "revision": "0080316e9b63e5f6cc5798a6d3bcdd63",
     "url": "/knockknockadminreactfb/index.html"
   }
 ];
